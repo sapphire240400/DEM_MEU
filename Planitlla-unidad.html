@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Files -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css\prueba2.css" rel="stylesheet">
+  
+</head>
+
+<body>
+
+<!-- ===== 
+    ;;;;;;;;;;;;;;;;;;;;;;;;
+    ;;       BANNER       ;;    
+    ;;;;;;;;;;;;;;;;;;;;;;;;
+===== -->
+<div class="dem-bann_sect"> </div>
+
+<div class="dem-main-curso" style="margin-bottom: 0px; margin-top: 0px; margin-left: 0px; margin-right: 0px;">
+<!-- ===== 
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;;       SIDEBAR         ;;    
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;
+===== -->
+    <div class="dem-tabs" id="dem-myTabs">
+
+        <!-- MENU FLECHAS -->
+        <button class="dem-pre" onclick="showPreviousTab()"> &lt;</button>
+        <!-- MENU FLECHAS -->
+
+        <!--Tabs -->
+        <div class="dem-tab-button-curso" onclick="showTab(event)">Introducción</div>
+        <div class="dem-tab-button-curso" onclick="showTab(event)">Guía académica</div>
+        <div class="dem-tab-button-curso" onclick="showTab(event)" >Tema x. Texto </div>
+        <div class="dem-tab-button-curso" onclick="showTab(event)">Tema x. Texto</div>
+        <div class="dem-tab-button-curso" onclick="showTab(event)" style="padding-left: 3vw;">Actividades</div>
+        <div class="dem-tab-button-curso" onclick="showTab(event)">Cierre</div>
+
+        <!-- MENU FLECHAS -->
+        <button class="dem-next" onclick="showNextTab()"> &gt; </button>
+        <!-- MENU FLECHAS -->
+
+    </div>
+
+<!-- ===== 
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;;       UNIDADES         ;;    
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+===== -->
+    <div class="dem-tab-wrapper_act">
+        <div id="dem-content">
+
+            <!-- MADRE 0 -->
+            <div class="dem-tab-content-curso" style="display: none;">
+                <div class="dem-marco-general">
+            
+                    <div class="dem-ind_sect">  
+                        <h2 style="text-align:center;">Introducción </h2>    
+                    </div>
+            
+                    <hr><br>
+
+                    <p>Bienvenida/o a la <strong>Unidad X</strong> texto texto texto...</p>
+                    <br>
+
+                    <!--    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+                            ;;  OBJETIVOS DE LA UNIDAD  ;;
+                            ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; -->
+                    <hr>
+                    <div class="dem-titulo_text">   
+                        <img src="https://uaqedvirtual.uaq.mx/formacion/pluginfile.php/5343/mod_folder/content/0/img/dedie.png"> <h5> Objetivos de la unidad</h5>
+                    </div>
+                    <br>
+
+                    <p><strong>Objetivos de la unidad:</strong>  Texto texto texto...</p>
+                    <p><strong>Objetivos especificos:</strong>  Texto texto texto...</p>
+
+                    <br>
+
+                    <!--    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+                            ;;  ORGANIZACION DE UNIDAD | GUIA ACADEMICA ;;
+                            ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; -->
+                    <hr>
+                    <div class="dem-titulo_text">   
+                        <img src="https://uaqedvirtual.uaq.mx/formacion/pluginfile.php/5343/mod_folder/content/0/img/dedie.png"> <h5> Organización de la unidad</h5>
+                    </div>
+                    <br>
+
+                    <div class="row" style="align-items: center; justify-content: left; margin-right: 0px; margin-left: 0px;">                        
+                        <div class="col-xs-12 col-md-8">
+                            <p>Text_guia_academica</p>
+                        </div>
+                        <div class="col-xs-6 col-md-4" style="text-align: justify;">
+                            <center>
+                                <a href="remplazarURL" target="_blank">
+                                <div class="image-container" style="max-width:70%">
+                                    <img src="https://uaqedvirtual.uaq.mx/formacion/pluginfile.php/5343/mod_folder/content/0/img/holder-img.png" alt="Primera Imagen">
+                                    <img src="https://uaqedvirtual.uaq.mx/formacion/pluginfile.php/5343/mod_folder/content/0/img/holder-img-2.png" alt="Segunda Imagen" class="second-image">
+                                </div>
+                                </a>
+                                Da clic en el ícono para acceder.
+                            </center>
+                        </div>
+                    </div>
+
+                    <!--    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+                            ;;     DESARROLLO TEMATICO  ;;
+                            ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; -->
+                    <hr>
+                    <div class="dem-titulo_text">   
+                        <img src="https://uaqedvirtual.uaq.mx/formacion/pluginfile.php/5343/mod_folder/content/0/img/dedie.png"> <h5> Sobre el desarrollo temático y otras fuentes de consulta</h5>
+                    </div>
+                    <br>
+                    
+                    <p>Text_introduccion_referencias</p>
+                    <br>
+
+                    <center>
+                    <button type="button" class="dem-collapsible-curso">
+                        <strong>titulo_referencias </strong>
+                        <img src="https://uaqedvirtual.uaq.mx/formacion/pluginfile.php/5343/mod_folder/content/0/img/ICO_DROPDOWN.png" style="max-width: 22px;">
+                    </button>
+
+                    <div class="dem-content-collapse-curso">
+                        <br><!-- Mantener espacios -->
+                        <ol style="list-style: outside;">
+                            <li>
+                                <div class="animate-latido"> 
+                                    referencia_con_url
+                                    <a href="remplazarURL" target="_blank"> <img src="https://uaqedvirtual.uaq.mx/formacion/pluginfile.php/5343/mod_folder/content/0/img/ICO_REFCON.png" style="max-width: 30px; "></a> 
+                                </div>
+                            </li>
+                            <br>
+                            <li>
+                                text_sin_url
+                            </li>
+                        </ol>
+                        <br><!-- Mantener espacios -->
+                    </div>
+                    </center>
+                    <br><br>
+                
+                </div>  <!--End marco general -->
+            </div>
+            <!-- /MADRE 0 -->
+
+            <!-- MADRE 1 -->
+            <div class="dem-tab-content-curso" style="display: none;">
+                <div class="dem-marco-general">
+                    <div class="dem-ind_sect">  <h2 style="text-align:center;">Guía académica </h2>    </div>
+                    <hr><br>
+                    <p>text_relacionado_a_la_guia</p>
+                    
+                    <br>
+                    <center>
+                        <div class="dem-guia" style="width: 75%;margin: 0 auto; ">
+                            <iframe src="elaboracion-u1-guiaacademica.pdf" style="width: 100%; height: 100%;" allow="autoplay"></iframe>
+                        </div>
+                    </center>
+                    <br><br>
+                </div>  <!--End marco general -->
+            </div>  <!-- / MADRE 1 -->
+
+            <!-- MADRE 2 -->
+            <div class="dem-tab-content-curso" style="display: none;">
+                <div class="dem-marco-general">
+                    <div class="dem-ind_sect"> <h2 style="text-align:center;">Titulo_tema </h2> </div>
+                    <hr><br>
+                    <p>text_tema</p>
+                    <br><br>
+                </div>
+            </div>
+            <!-- /MADRE 2 -->
+
+            <!-- MADRE 2.1 -->
+            <div class="dem-tab-content-curso" style="display: none;">
+                <div class="dem-marco-general">
+                    <div class="dem-ind_sect"> <h2 style="text-align:center;">Titulo_tema </h2> </div>
+                    <hr><br>
+                    <p>text_tema</p>
+                    <br><br>
+                </div>
+            </div>
+            <!-- /MADRE 2.1 -->
+
+            <!-- MADRE 3 -->
+            <div class="dem-tab-content-curso" style="display: none;">
+                <div class="dem-marco-general">
+                    <div class="dem-ind_sect"> <h2 style="text-align:center;">Titulo_tema </h2> </div>
+                    <hr>
+                    
+                    <div class="dem-seccion_act">
+                        <div class="dem-sec_1">
+                            <div class="dem-titulo-act" > Actividad num</div>  
+
+                            <p style="display: flex; justify-content: center; margin-bottom: 8px;"> 
+                                <strong> titulo_actividad_foro</strong> 
+                            </p>
+                            
+                            <center>
+                            <a href="remplazarURL" target="_blank">
+                            <div class="image-container2" style="max-width:40%">
+                                <img src="https://uaqedvirtual.uaq.mx/formacion/pluginfile.php/5343/mod_folder/content/0/img/holder-img.png" alt="Primera Imagen">
+                                <img src="https://uaqedvirtual.uaq.mx/formacion/pluginfile.php/5343/mod_folder/content/0/img/holder-img-2.png" alt="Segunda Imagen" class="second-image2">
+                            </div>
+                            </a> 
+                            <br>  <strong>Da clic en el ícono para acceder.</strong>
+                            <br><p> Recuerda que para realizar esta actividad debes revisar el contenido que se te proporciona en los siguientes apartados </p>
+                            </center>
+                        </div>
+
+                        <div class="dem-sec_2">
+                            <div class="dem-titulo-act" > Actividad num</div>  
+                            <p style="display: flex; justify-content: center; margin-bottom: 8px;"> 
+                                <strong> titulo_actividad_foro</strong> 
+                            </p>
+                            
+                            <center>
+                            <a href="remplazarURL" target="_blank">
+                            <div class="image-container2" style="max-width:40%">
+                                <img src="https://uaqedvirtual.uaq.mx/formacion/pluginfile.php/5343/mod_folder/content/0/img/holder-img.png" alt="Primera Imagen">
+                                <img src="https://uaqedvirtual.uaq.mx/formacion/pluginfile.php/5343/mod_folder/content/0/img/holder-img-2.png" alt="Segunda Imagen" class="second-image2">
+                            </div>
+                            </a> 
+                            <br>  <strong>Da clic en el ícono para acceder.</strong>
+                            <br><p> Recuerda que para realizar esta actividad debes revisar el contenido que se te proporciona en los siguientes apartados </p>
+                            </center>
+                        </div>
+
+                        <div class="dem-sec_3">
+                            <div class="dem-titulo-act" > Actividad num</div>  
+                            <p style="display: flex; justify-content: center; margin-bottom: 8px;"> 
+                                <strong> titulo_actividad_foro</strong> 
+                            </p>
+                            
+                            <center>
+                            <a href="remplazarURL" target="_blank">
+                            <div class="image-container2" style="max-width:40%">
+                                <img src="https://uaqedvirtual.uaq.mx/formacion/pluginfile.php/5343/mod_folder/content/0/img/holder-img.png" alt="Primera Imagen">
+                                <img src="https://uaqedvirtual.uaq.mx/formacion/pluginfile.php/5343/mod_folder/content/0/img/holder-img-2.png" alt="Segunda Imagen" class="second-image2">
+                            </div>
+                            </a> 
+                            <br>  <strong>Da clic en el ícono para acceder.</strong>
+                            <br><p> Recuerda que para realizar esta actividad debes revisar el contenido que se te proporciona en los siguientes apartados </p>
+                            </center>
+                        </div>
+                    </div>
+
+                    <br><br>
+                </div>
+            </div>
+            <!-- /MADRE 3 -->
+
+            <!-- MADRE 4 -->
+            <div class="dem-tab-content-curso" style="display: none;">
+                <div class="dem-marco-general">
+                    <div class="dem-ind_sect">  <h2 style="text-align:center;">Cierre</h2>  </div>
+                    <hr><br>
+
+                    <p>text_cierre</p> 
+                    
+                    <br><br>
+                </div> <!--End marco general -->
+            </div>  <!-- /MADRE 4 -->
+
+            <!-- BOTON SCROLL -->
+            <button onclick="scrollToTop()" id="dem-back-to-top-curso">
+                <img src="https://uaqedvirtual.uaq.mx/formacion/pluginfile.php/5343/mod_folder/content/0/img/ICO_UP.png" style="max-width: 20px;">
+            </button>
+
+        </div> <!-- / dem-content -->
+    </div> <!-- / dem-tab-wrapper_act -->
+
+</div><!-- /End  dem-main-curso -->
+
+<!-- ===== 
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;;       SCRIPTS         ;;    
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;
+===== -->
+<script>
+    var coll = document.getElementsByClassName("dem-collapsible-curso");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("dem-active-collapse");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+</script>
+
+<script src="https://uaqedvirtual.uaq.mx/formacion/pluginfile.php/5343/mod_folder/content/0/js/tabs_final_12.js"></script>
+<script src="https://uaqedvirtual.uaq.mx/formacion/pluginfile.php/5343/mod_folder/content/0/js/backtotop.js"></script>
+<script>
+    var style = document.createElement("link");
+    document.head.appendChild(style);
+    style.setAttribute("rel", "stylesheet");
+    style.setAttribute("href",
+        "css/prueba2.css"
+    );
+</script>
+</body>
+
+</html>

@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Elementos HTML</title>
+	 <!-- Files -->
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+	 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  	<!-- CSS-->
+	<link href="css/prueba2.css" rel="stylesheet">	
+
+</head>
+
+<body>
+<div class=" main-curso" style="    display: flex;    flex-direction: column;">  	<!-- Todo va dentro de este div, cuidar que todo quede dentro -->
+
+
+<!-- ===== 
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;;       INDICADOR SECCION       ;;    
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+===== --> 
+<div class="titulo_text">
+		<img src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/img/dedie.png"> 
+		<p>SECCION ENCUADRE/TITULO</p>
+</div>
+<br><br>
+
+
+<!-- Copiar a partir de esta parte -->
+<div class="bann_sect"> <p> INDICADOR_SECCION </p></div>
+<!-- Fin Copiar a partir de esta parte -->
+
+
+
+
+
+<br><br>
+<br><br>
+
+
+
+<!-- ===== 
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;;       MCUPAZ MINI BAR            ;;    
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+===== --> 
+<div class="titulo_text">
+        <img src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/img/dedie.png"> 
+        <p> MCUPAZ TEMAS-BAR</p>
+</div>
+<br><br>
+
+<!-- Inicio Copiar a partir de esta parte -->
+<div class="tabs-mcupaz" id="myTabs">
+    <div class="tab-button-mcupaz" onclick="showTabMcupaz(0)" id="tabButton1">Unidad 1</div>
+    <div class="tab-button-mcupaz" onclick="showTabMcupaz(1)" id="tabButton2">Unidad 2</div>
+    <div class="tab-button-mcupaz" onclick="showTabMcupaz(2)" id="tabButton3">Unidad 3</div>
+    <div class="tab-button-mcupaz" onclick="showTabMcupaz(3)" id="tabButton4">Unidad 4</div>
+    <div class="tab-button-mcupaz" onclick="showTabMcupaz(4)" id="tabButton5">Unidad 5</div>
+</div>
+
+<div class="tab-wrapper_act-mcupaz">
+    <!-- MENU FLECHAS -->
+    <button class="pre-mcupaz" onclick="showPreviousTab()"> < </button>
+
+    <div >
+        <!-- MODULO 1 -->
+        <div class="tab-content-mcupaz" id="tab1">
+            <h3>INTRODUCCIÓN [EJEMPLO 1]</h3>
+        </div>
+
+        <!-- MODULO 2 -->
+        <div class="tab-content-mcupaz" id="tab2" style="display: none;">
+            <h3>INTRODUCCIÓN [EJEMPLO 2]</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elit lacus, placerat non eros at, ullamcorper ullamcorper enim. In eleifend nibh.</p>
+            <center>
+                <a href="your_activity_link" target="_blank">
+                    <img src="img/act.png" alt="Activity" style="max-width: 220px;">
+                </a>
+            </center>
+        </div>
+
+        <!-- MODULO 3 -->
+        <div class="tab-content-mcupaz" id="tab3" style="display: none;">
+            <h3>INTRODUCCIÓN [EJEMPLO 3]</h3>
+            <div class="container-h5p-mcupaz">
+                <iframe class="responsive-iframe-mcupaz" src="https://uaqedvirtual.uaq.mx/capacitacion/mod/hvp/embed.php?id=3129"></iframe>
+            </div>
+        </div>
+
+        <!-- MODULO 4 -->
+        <div class="tab-content-mcupaz" id="tab4" style="display: none;">
+            <h3>INTRODUCCIÓN [EJEMPLO 4]</h3>
+            <center>
+                <a href="your_activity_link" target="_blank">
+                    <img src="img/act.png" alt="Activity" style="max-width: 220px;">
+                </a>
+            </center>
+        </div>
+
+        <!-- MODULO 5 -->
+        <div class="tab-content-mcupaz" id="tab5" style="display: none;">
+            <h3>INTRODUCCIÓN [EJEMPLO 5]</h3>
+            <!-- Your content here -->
+        </div>
+    </div>
+
+    <!-- MENU FLECHAS -->
+    <button class="next-mcupaz" onclick="showNextTab()"> > </button>
+</div>
+<!-- Fin Copiar a partir de esta parte -->
+
+
+
+<br><br><br><br>  
+
+
+
+<!-- ===== 
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;;       SOCIAL MEDIA       ;;    
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+===== --> 
+<div class="social_media">
+	
+	<div class="icon_fb">
+		<a href="remplazarURL" target="_blank"> 
+			<img src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/img/social_l1.png" style="max-width: 105px;">
+		</a>
+	</div>
+
+	<div class="icon_tw">
+		<a href="remplazarURL" target="_blank"> 
+		<img src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/img/social_l2.png" style="max-width: 105px;">
+		</a>
+	</div>
+
+	<div class="icon_yt">
+		<a href="remplazarURL" target="_blank"> 
+		<img src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/img/social_l1.png" style="max-width: 105px;">
+		</a>	
+	</div>
+
+	<div class="icon_web">
+		<a href="remplazarURL" target="_blank"> 
+		<img src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/img/social_l2.png" style="max-width: 105px;">
+		</a>
+	</div>
+	
+</div>
+<br><br>
+<br><br>
+
+
+
+<!-- ===== 
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;;       SECCION_ELEMENTOS_IMPORTANTES      ;;    
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+===== --> 
+<div class="titulo_text">
+		<img src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/img/dedie.png"> 
+		<p>SECCION ELEMENTOS IMPORTANTES</p>
+</div>
+
+<br><br>
+
+
+<!-- Copiar a partir de esta parte -->
+<div class="seccion_import" >
+	<div class="item_import">
+		<div class="titulo"	> Cuestionario inicial</div>		
+		<img src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/img/holder-img.png" style="max-width: 105px;">
+		<p>text text text</p>	
+	</div>
+
+	<div class="item_import">
+		<div class="titulo"	> Programa </div>		
+		<img src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/img/holder-img.png" style="max-width: 105px;">
+		<p>text text text</p>	
+	</div>
+	
+</div>
+<!-- Fin Copiar a partir de esta parte -->
+
+
+
+
+<br><br>
+<br><br>
+
+
+
+
+<!-- ===== 
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;;       SECCION_ACTIVIDADES      ;;    
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+===== --> 
+<div class="titulo_text">
+		<img src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/img/dedie.png"> 
+		<p>SECCION ACTIVIDAD</p>
+</div>
+<br><br>
+
+<!-- Copiar a partir de esta parte -->
+<div class="seccion_act" >
+
+	<div class="sec_1">
+		<div class="titulo-act"	> #Actividad</div>	
+			<p style="display: flex; justify-content: center; margin-bottom: 8px;"> 
+				<strong> titulo_actividad_foro</strong> 
+			</p>
+			
+			<center>
+				<a href="remplazarURL" target="_blank">
+                    <div class="image-container2" style="max-width:40%">
+                            <img src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/img/holder-img.png" alt="Primera Imagen">
+                            <img src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/img/holder-img-2.png" alt="Segunda Imagen" class="second-image2">
+                    </div>
+                </a> 
+			</center>	
+			<br>
+			<p style="text-align: justify;">Indicaciones</p>
+
+	</div>
+
+	<div class="sec_2">
+		<div class="titulo-act"	> #Actividad</div>	
+			<p style="display: flex; justify-content: center; margin-bottom: 8px;"> 
+				<strong> titulo_actividad_foro</strong> 
+			</p>
+			
+			<center>
+				<a href="remplazarURL" target="_blank">
+                    <div class="image-container2" style="max-width:40%">
+                            <img src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/img/holder-img.png" alt="Primera Imagen">
+                            <img src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/img/holder-img-2.png" alt="Segunda Imagen" class="second-image2">
+                    </div>
+                </a> 
+			</center>	
+			<br>
+			<p style="text-align: justify;">Indicaciones</p>
+	</div>
+
+	<div class="sec_3">
+		<div class="titulo-act"	> #Actividad</div>	
+			<p style="display: flex; justify-content: center; margin-bottom: 8px;"> 
+				<strong> titulo_actividad_foro</strong> 
+			</p>
+			
+			<center>
+				<a href="remplazarURL" target="_blank">
+                    <div class="image-container2" style="max-width:40%">
+                            <img src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/img/holder-img.png" alt="Primera Imagen">
+                            <img src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/img/holder-img-2.png" alt="Segunda Imagen" class="second-image2">
+                    </div>
+                </a> 
+			</center>
+			<br>
+			<p style="text-align: justify;">Indicaciones</p>	
+	</div>
+
+</div>
+<!-- Fin Copiar a partir de esta parte -->
+
+
+
+
+<br><br>
+<br><br>
+
+
+
+
+
+<!-- ===== 
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;;       IMPORTANT_TEXT			;;    
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+===== --> 
+<div class="titulo_text">
+		<img src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/img/dedie.png"> 
+		<p> TEXTO ROJO</p>
+</div>
+<br><br>
+
+<!-- Copiar a partir de esta parte -->
+<div class="secc_important_text">
+	<div class="important_text">
+		<p>	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vehicula pellentesque ligula, sit amet rutrum diam malesuada vitae. Phasellus vitae finibus velit. Suspendisse feugiat elit et nunc porta, ut blandit metus</p>
+		<img src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/img/red_text.png" style="max-width: 40px;margin-left: 10px;"> 
+	</div>
+</div>
+<!-- Fin Copiar a partir de esta parte -->
+
+
+
+
+<br><br>
+<br><br>
+
+
+
+
+<!-- ===== 
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;;      TEXTO_IMPORTANTE RESALTADO	;;    
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+===== --> 
+<div class="titulo_text">
+		<img src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/img/dedie.png"> 
+		<p> TEXTO RESALTADO</p>
+</div>
+<br><br>
+
+
+<!-- Copiar a partir de esta parte -->
+<div class="green_text">
+	<p>	Palabra resaltada</p>
+</div>
+<!-- Fin Copiar a partir de esta parte -->
+
+
+
+
+<br><br>
+<br><br>
+
+
+
+
+<!-- ===== 
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;;       GLOSARIO			;;    
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+===== --> 
+<div class="titulo_text">
+		<img src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/img/dedie.png"> 
+		<p> GLOSARIO </p>
+</div>
+<br><br>
+
+
+<!-- Copiar a partir de esta parte -->
+<div style="margin-left: 10px;"> 
+	Este es un ejemplo de aplicacion de glosario el texto se corta aqui y luego sigue...
+
+	<div class="hover-container">
+		<button class="glosario"> 
+			<img src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/img/glosario.png">
+			<p>... la palabra del glorario ... </p> 
+		</button>
+
+		<div class="hover-text">
+			<p>Aqui va la definicion de la palabra</p>
+		</div>
+		
+	</div>
+
+	... Aqui debe de continuar el texto.
+</div>
+<!-- Fin Copiar a partir de esta parte -->
+
+
+
+<br><br>
+<br><br>
+
+
+
+
+<!-- ===== 
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;;       TEMARIO			;;    
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+===== --> 
+<div class="titulo_text">
+		<img src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/img/dedie.png"> 
+		<p> TEMARIO</p>
+</div>
+<br><br>
+
+
+<!-- Copiar a partir de esta parte -->
+<div class="temario">
+	 <div class="container_temario">
+	        <div id="table1" class="table_curso">
+		        <table>
+		            <tr>
+		            	<th>Unidad 1. </th>
+		            </tr>
+		            <tr>
+		                <td>
+		                <p>Tema 1.</p>
+		                <p>Tema 2.</p>
+		                <p>Tema 3.</p>
+		            	</td>
+		                
+		            </tr>
+		        </table>
+	        </div>
+	        
+	        <div id="table2" class="table_curso">
+	            <table>
+		            <tr>
+		            	<th>Unidad 2. </th>
+		            </tr>
+		            <tr>
+		                <td>
+		                <p>Tema 1.</p>
+		                <p>Tema 2.</p>
+		                <p>Tema 3.</p>
+		            	</td>
+		                
+		            </tr>
+	        	</table>
+	        </div>
+	        
+	        <div id="table3" class="table_curso hidden-curso">
+	            <table>
+		            <tr>
+		            	<th>Unidad 3. </th>
+		            </tr>
+		            <tr>
+		                <td>
+		                <p>Tema 1.</p>
+		                <p>Tema 2.</p>
+		                <p>Tema 3.</p>
+		            	</td>
+		                
+		            </tr>
+	        	</table>
+	        </div>
+	        
+	        <div id="table4" class="table_curso hidden-curso">
+	            <table>
+		            <tr>
+		            	<th>Unidad 4. </th>
+		            </tr>
+		            <tr>
+		                <td>
+		                <p>Tema 1.</p>
+		                <p>Tema 2.</p>
+		                <p>Tema 3.</p>
+		            	</td>
+		                
+		            </tr>
+	        	</table>
+	        </div>
+	        
+	        <div id="table5" class="table_curso hidden-curso">
+	            <table>
+		            <tr>
+		            	<th>Unidad 5. </th>
+		            </tr>
+		            <tr>
+		                <td>
+		                <p>Tema 1.</p>
+		                <p>Tema 2.</p>
+		                <p>Tema 3.</p>
+		            	</td>
+		                
+		            </tr>
+	        	</table>
+	        </div>
+	        
+	        <div id="table6" class="table_curso hidden-curso">
+	            <table>
+		            <tr>
+		            	<th>Unidad 6. </th>
+		            </tr>
+		            <tr>
+		                <td>
+		                <p>Tema 1.</p>
+		                <p>Tema 2.</p>
+		                <p>Tema 3.</p>
+		            	</td>
+		                
+		            </tr>
+	        	</table>
+	        </div>
+	    </div>
+</div>
+
+
+
+
+
+<br><br>
+<br><br>
+
+
+
+
+<!-- ===== 
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;;       SEMBLANZA			;;    
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+===== --> 
+<div class="titulo_text">
+		<img src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/img/dedie.png"> 
+		<p>TEXTO ENTRE IMAGENES</p>
+</div>
+<br><br>
+
+
+<!-- Copiar a partir de esta parte -->
+<div class="row" style="align-items: center; justify-content: left; margin-right: 0px; margin-left: 0px;">  
+		
+		<div class="col-xs-6 col-md-9" >
+        	<center>	<img  src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/img/holder-img.png"> 	</center>
+    	</div>
+	    
+	    <div class="col-xs-12 col-md-3" style="text-align: justify;">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum egestas justo libero, quis maximus mi blandit cursus. Morbi laoreet arcu sit amet leo dapibus, nec venenatis nunc ultricies. Curabitur luctus, massa nec rhoncus tristique, magna justo consectetur nulla, id maximus augue mi vitae dui. Etiam molestie velit urna, vel volutpat sem pretium nec. Praesent bibendum ullamcorper vehicula. Aenean tellus tortor, sollicitudin sit amet bibendum et, semper at sem. Vivamus tincidunt rhoncus faucibus. Nullam iaculis sodales ligula vitae scelerisque. Suspendisse nec consequat nisi, ut tempus diam. Donec id diam vitae dolor auctor ornare ut sit amet purus. Curabitur imperdiet efficitur velit, id pellentesque sem rutrum ac. Curabitur volutpat mauris quis aliquam finibus. Pellentesque aliquam porttitor imperdiet. Morbi neque ligula, gravida in odio non, feugiat volutpat risus. Aenean ornare consectetur pharetra.</p>
+	    </div>
+</div>
+<!-- Fin Copiar a partir de esta parte -->
+
+
+
+<br><br><br><br>
+
+
+
+<!-- ===== 
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;;       CALENDARIO		;;    
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;
+===== --> 
+<div class="titulo_text">
+		<img src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/img/dedie.png"> 
+		<p>TABLAS | CALENDARIO </p>
+</div>
+<br><br>
+
+
+<!-- Comenzar a Copiar a partir de esta parte -->
+<div class="tablas" id="rotating-table">
+	<div class="table-responsive">
+		<table class="table">
+			<thead>
+				<tr>
+					<th scope="col">Unidad</th>
+					<th scope="col">Periodo </th>
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr>
+					<th scope="row">
+						<p>Unidad 1: TITULO </p>
+		                <p>Punto importante de la unidad 1.</p>
+		                <p>Punto importante de la unidad 1.</p>
+					</th>
+
+					<td>
+						XX al XX de XXXX
+					</td>
+				</tr>
+
+				<tr>
+					<th scope="row">
+						<p>Unidad 2: TITULO </p>
+		                <p>Punto importante de la unidad 1.</p>
+		                <p>Punto importante de la unidad 1. TEXT TEXT TEXT TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT TEXT TEXT TEXT</p>
+					</th>
+					
+					<td>
+						XX al XX de XXXX
+					</td>
+				</tr>
+
+				<tr>
+					<th scope="row">
+						<p>Unidad X: TITULO </p>
+		                <p>Punto importante de la unidad 1.</p>
+		                <p>Punto importante de la unidad 1.</p>
+					</th>
+					
+					<td>
+						XX al XX de XXXX
+					</td>
+				</tr>                    
+			</tbody>
+			
+		</table>
+	</div>
+</div>
+<!-- Fin Copiar a partir de esta parte -->
+
+
+
+
+
+
+<br><br><br><br>
+
+
+
+
+
+<!-- ===== 
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;;       COLLAPSE SOLO PARA MOSTRAR CONTENIDO	;;    
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+===== --> 
+<div class="titulo_text">
+	<img src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/img/dedie.png" style="max-width: 30px;"> 
+	<p>COLLAPSE</p>
+</div>
+<br><br>
+
+
+<!-- Comenzar a Copiar a partir de esta parte -->
+<button type="button" class="collapsible-curso"> text <img src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/img/ICO_DROPDOWN.png" style="max-width: 22px;"> </button>
+
+	<div class="content-collapse-curso">
+		<br>
+		<ol type="I">
+			<br>
+			<li>  text1</li>
+			<li> text2</li>
+			<li> text3</li>
+		</ol>
+		<br>
+	</div>
+<!-- Fin Copiar a partir de esta parte -->
+
+
+
+
+<br><br>
+<br><br>
+
+
+
+
+<!-- ===== 
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;;       INSERTAR	;;    
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+===== --> 
+<div class="titulo_text">
+	<img src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/img/dedie.png" style="max-width: 30px;"> 
+	<p>INSERTAR GENIALLYS</p>
+</div>
+<br><br>
+
+
+<!-- Comenzar a Copiar a partir de esta parte -->
+<div style=" place-self: center;     text-align: center;">
+No olvides presionar el botón  <img src="https://citesems1.org/publicdata/0CursoVisual/https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/img/CVD_ICO_CLICK_HERE.png" style="max-width: 25px;"> para que veas dónde debes hacer clic y obtener la información completa del recurso. <br>
+Para ver la presentación en pantalla completa, oprime el siguiente botón <a href="remplazarURL" target="_blank"> <img src="https://citesems1.org/publicdata/0CursoVisual/https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/img/CVD_ICO_LINK.png" style="max-width: 22px;">  </a> 
+</div>
+
+
+<div class="guia" style="width: 100%; margin: 0 auto;">
+	<iframe  src="remplazarURL" style="  width: 100%; height: 100%;" allow="autoplay"></iframe>
+</div>
+
+
+<br><br>
+
+<div class="titulo_text">
+	<img src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/img/dedie.png" style="max-width: 30px;"> 
+	<p>INSERTAR IMAGENES</p>
+</div>
+
+<br><br>
+
+<center>
+	<a href="remplazarUrlALaImg" target="_blank">
+		<img src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/img/holder-img.png" style="max-width: 100%; ">
+	</a>
+</center>
+
+<!-- Fin Copiar a partir de esta parte -->
+
+
+
+
+<br><br><br><br>
+
+
+
+
+<!-- ===== 
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;;       INSERTAR	;;    
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+===== --> 
+<div class="titulo_text">
+	<img src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/img/dedie.png" style="max-width: 30px;"> 
+	<p>BIENVENIDA Y CIERRE</p>
+</div>
+<br><br>
+
+
+<!-- Comenzar a Copiar a partir de esta parte -->
+<div class="row" style="align-items: center; justify-content: left; margin-right: 0px; margin-left: 0px;">  
+	<div class="col-xs-12 col-md-4" >
+		<img src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/img/holder-img.png" style="max-width: 100%; padding-top: 10px;">
+		<!-- Ajustar tamaño a necesidad        -->
+	</div>
+	<div class="col-xs-6 col-md-8" style="text-align: justify;">
+		<p> TEXTO BIENVENIDA </p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum egestas justo libero, quis maximus mi blandit cursus. Morbi laoreet arcu sit amet leo dapibus, nec venenatis nunc ultricies. Curabitur luctus, massa nec rhoncus tristique, magna justo consectetur nulla, id maximus augue mi vitae dui. Etiam molestie velit urna, vel volutpat sem pretium nec. Praesent bibendum ullamcorper vehicula. Aenean tellus tortor, sollicitudin sit amet bibendum et, semper at sem. Vivamus tincidunt rhoncus faucibus. Nullam iaculis sodales ligula vitae scelerisque. Suspendisse nec consequat nisi, ut tempus diam. Donec id diam vitae dolor auctor ornare ut sit amet purus. Curabitur imperdiet efficitur velit, id pellentesque sem rutrum ac. Curabitur volutpat mauris quis aliquam finibus. Pellentesque aliquam porttitor imperdiet. Morbi neque ligula, gravida in odio non, feugiat volutpat risus. Aenean ornare consectetur pharetra.</p>
+	</div>
+</div>
+
+<br><br>
+
+<div class="row" style="align-items: center; justify-content: left; margin-right: 0px; margin-left: 0px;">  
+	<div class="col-xs-12 col-md-8" >
+		<p>TEXTO CIERRE </p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum egestas justo libero, quis maximus mi blandit cursus. Morbi laoreet arcu sit amet leo dapibus, nec venenatis nunc ultricies. Curabitur luctus, massa nec rhoncus tristique, magna justo consectetur nulla, id maximus augue mi vitae dui. Etiam molestie velit urna, vel volutpat sem pretium nec. Praesent bibendum ullamcorper vehicula. Aenean tellus tortor, sollicitudin sit amet bibendum et, semper at sem. Vivamus tincidunt rhoncus faucibus. Nullam iaculis sodales ligula vitae scelerisque. Suspendisse nec consequat nisi, ut tempus diam. Donec id diam vitae dolor auctor ornare ut sit amet purus. Curabitur imperdiet efficitur velit, id pellentesque sem rutrum ac. Curabitur volutpat mauris quis aliquam finibus. Pellentesque aliquam porttitor imperdiet. Morbi neque ligula, gravida in odio non, feugiat volutpat risus. Aenean ornare consectetur pharetra.</p>
+	</div>
+
+	<div class="col-xs-6 col-md-4" style="text-align: justify;">
+		<img src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/img/holder-img.png" style="max-width: 100%; padding-top: 10px;">              
+		<!-- Ajustar tamaño a necesidad        -->
+	</div>
+</div>
+
+<!-- Fin Copiar a partir de esta parte -->
+
+
+
+
+<br><br>
+<br><br>
+
+
+
+<!-- ===== 
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;;       REVISION            ;;    
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+===== --> 
+<div class="titulo_text">
+        <img src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/img/dedie.png"> 
+        <p> FINAL</p>
+</div>
+<br><br>
+
+<!-- Inicio Copiar a partir de esta parte -->
+<div class="element">
+  <div class="white-part">
+    <h2>Text goes here</h2>
+    
+    <img src="https://via.placeholder.com/150" alt="Placeholder image">
+
+  </div>
+</div>
+<!-- Fin Copiar a partir de esta parte -->
+
+
+
+<br><br><br><br>
+
+<!-- ===== 
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;;       PODCAST            ;;    
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+===== --> 
+<!-- <div class="titulo_text">
+        <img src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/img/dedie.png"> 
+        <p> PODCAST</p>
+</div>
+<br><br> -->
+
+<!-- Copiar a partir de esta parte -->
+
+    <!-- <div class="row" id="Podcast-encuadre" style="align-items: center; justify-content: left; margin-right: 0px; margin-left: 0px; display: flex; justify-content: center;">  
+        <div class="col-xs-6 col-md-4" style="display:flex; justify-content: center;">
+               <img  width="30px" height="30px" src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/img/ex2.png">  
+        </div>
+
+        <div class="col-xs-12 col-md-6" > 
+                <div class="audio-player">
+                        <div class="music-bar"> 
+                            <input type="range" id="progressSlider1"  min="0" max="100" value="0" step="0.1" oninput="seekAudio()">
+                            <span id="currentTime1">0:00</span>/<span id="duration1">0:00</span>
+                        </div>
+                        <div class="podcast-button">
+                            <button onclick="rewindAudio()" ><i class="bi bi-rewind-circle"></i></button>
+                            <button onclick="playAudio(1)" id="playbutton"><i class="bi bi-play-circle"></i></button>
+                            <button onclick="togglePause()" id="pausebutton"><i class="bi bi-pause-circle"></i></button>
+                            <button onclick="forwardAudio()"><i class="bi bi-fast-forward-circle"></i></button>
+
+                            <audio id="audio1"   style="visibility: hidden;" class="no-js"  src="https://citesems1.org/publicdata/sems24/artes/s2/doc/art_s2_Las%20emociones-la%20imaginacion-la%20creatividad.mp3">
+                            Si ves este mensaje es porque tu navegador no soporta el formato mp3, no te preocupes puedes acceder al recurso
+                            <a href="remplazarURL" target="_blank"> aquí <img src="https://citesems1.org/publicdata/Banners/CVD_ICO_LINK.png" style="max-width: 22px;"> </a>
+                        	</audio>
+                        </div>    
+                </div>  
+        </div>
+
+    </div> -->    <!-- END Podcast-encuadre -->
+<!-- Fin Copiar a partir de esta parte -->
+
+
+
+<br><br>
+<br><br>
+
+<!-- ===== 
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;;       SEMBLANZA            ;;    
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+===== --> 
+<div class="titulo_text">
+        <img src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/img/dedie.png"> 
+        <p> SEMBLANZA</p>
+</div>
+<br><br>
+
+  <!--          Inicia presentación por video    [Remplazar UNICAMENTE el atributo 'src' dentro del iframe, asi como 'NOMBRE_DOCENTE']                      -->
+      <h3> NOMBRE_DOCENTE [Presentacion] </h3>
+      <div class="container-h5p">
+                  <iframe id="video" class="responsive-iframe" src="https://www.youtube.com/embed/w8ZDatdtcuk?si=qdwCKGA2sELU6N5g" ></iframe>
+       </div> \
+    <!--           Fin presentación por video                            -->
+
+    <br><br>-----------------------------------------------------------------------<br><br> 
+
+    <!--           Inicia presentación por semblanza                           -->
+      <h3>SEMBLANZA [EJEMPLO] </h3>
+
+      <div class="row" style="align-items: center; justify-content: left; margin-right: 0px; margin-left: 0px;">  <div class="col-xs-6 col-md-4" >
+        <img  src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/img/ex.png"> <!-- Imagen profesor -->  
+      </div>
+
+      <div class="col-xs-12 col-md-6" >
+        <h3>SEMBLANZA</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum egestas justo libero, quis maximus mi blandit cursus. Morbi laoreet arcu sit amet leo dapibus, nec venenatis nunc ultricies. Curabitur luctus, massa nec rhoncus tristique, magna justo consectetur nulla, id maximus augue mi vitae dui. Etiam molestie velit urna, vel volutpat sem pretium nec. Praesent bibendum ullamcorper vehicula. Aenean tellus tortor, sollicitudin sit amet bibendum et, semper at sem. Vivamus tincidunt rhoncus faucibus. Nullam iaculis sodales ligula vitae scelerisque. Suspendisse nec consequat nisi, ut tempus diam. Donec id diam vitae dolor auctor ornare ut sit amet purus. Curabitur imperdiet efficitur velit, id pellentesque sem rutrum ac. Curabitur volutpat mauris quis aliquam finibus. Pellentesque aliquam porttitor imperdiet. Morbi neque ligula, gravida in odio non, feugiat volutpat risus. Aenean ornare consectetur pharetra.</p>
+      </div>
+    </div>
+    <!--          Fin presentación por semblanza                           -->
+
+    <br><br>-----------------------------------------------------------------------<br><br>
+
+    <!--           Inicia presentación por zoom                          -->
+      <h3> ZOOM  [EJEMPLO] </h3>
+
+      <div class="row" style="align-items: center; justify-content: left; margin-right: 0px; margin-left: 0px;">  <div class="col-xs-6 col-md-4" >
+        <img  src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/img/ex2.png"><!-- Imagen profesor -->  
+      </div>
+
+      <div class="col-xs-12 col-md-6" >
+        <h3 >SESIÓN ZOOM</h3>
+        <p>Breve presentación a los alumnos* </p>
+        <p>Se ha programado una reunión en línea para proporcionarles una introducción a la clase y presentarles a su docente.
+            Su asistencia es fundamental; agradecemos su compromiso con su educación y esperamos verlos en la reunión.</p>
+        <p>Detalles de la reunión:</p>
+        <p>Fecha: DD/MM/YYYY</p>
+        <p>Hora: DD/MM/YYYY</p>
+        <center><a href="" target="_blank"><i class="bi bi-mic-fill">Unirse a la sesión zoom</i></a></center>
+      </div>
+    </div>
+    <!--           Fin presentación por zoom                           -->
+
+
+
+
+
+
+
+</div>
+<!-- =====  END MAIN 	===== --> 
+
+
+
+
+<script src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/js/script_curso.js"></script>
+<script src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/js/tabs_final_12.js"></script>
+<script src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/js/bttnAct.js"></script>
+<script src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/js/backtotop.js"></script>
+<script src="https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/js/mcupaz-tab.js"></script>
+
+<script >
+    var coll = document.getElementsByClassName("collapsible-curso");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active-collapse");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+</script>
+<script>
+    var style = document.createElement("link");
+    document.head.appendChild(style);
+    style.setAttribute("rel", "stylesheet");
+    style.setAttribute("href",
+        "https://cite.uaq.mx/cite/pluginfile.php/4847/mod_folder/content/0/css/prueba2.css"
+    );
+</script>
+
+<script >
+	
+
+
+</script>
+
+</body>
+
+
+
+
+
+</html>
